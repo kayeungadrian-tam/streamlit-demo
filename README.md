@@ -22,6 +22,18 @@ https://streamlit.io/
 
 # 👷 Functionalities
 
+
+1. Write
+1. Input Type
+    1. Boolean
+    1. Select
+    1. Text
+    1. Numerical
+1. Image
+1. Layout
+1. Display data
+1. Charts
+---
 ## Write
 
 ```python
@@ -60,7 +72,7 @@ multiselect = st.multiselect("Multi-select", my_list)
 select_slider = st.select_slider("Select Slider", my_list)
 ```
 
-Text-input
+Text
 
 ```python
 text = st.text_input("Input")
@@ -108,7 +120,7 @@ with col2:
 
 ```
 
-## Disaply data
+## Display data
 
 ```python
 def make_json():
